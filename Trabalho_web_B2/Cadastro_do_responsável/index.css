@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.instruction {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1 1 calc(50% - 40px);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons .voltar,
+.buttons .avancar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons .voltar:hover,
+.buttons .avancar:hover {
+    background-color: #0056b3;
+}
+
+.buttons .avancar {
+    background-color: #0056b3;
+}
+
+.buttons .avancar:hover {
+    background-color: #004085;
+}

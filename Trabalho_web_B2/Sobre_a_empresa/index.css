@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #6d8fff;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo img {
+    height: 40px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+header .voltar {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .voltar:hover {
+    background-color: #0066cc;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+main .image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main .image-container img {
+    width: 700px;
+    height: auto;
+    border-radius: 8px;
+}
+
+main .content {
+    background-color:  #6d8fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 5px;
+    height: 150px;
+}
+
+main .content p {
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+main .contact {
+    display: block;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    text-align: center;
+    font-size:  15px ;
+}
+
+main .contact:hover {
+    background-color: #005bb5;
+}
